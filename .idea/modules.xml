@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ApplicationSystem/ApplicationSystem.iml" filepath="$PROJECT_DIR$/ApplicationSystem/ApplicationSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ApplicationSystem/CommonSystem/CommonSystem.iml" filepath="$PROJECT_DIR$/ApplicationSystem/CommonSystem/CommonSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JourneyEureka/JourneyEureka.iml" filepath="$PROJECT_DIR$/JourneyEureka/JourneyEureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JourneyGateway/JourneyGateway.iml" filepath="$PROJECT_DIR$/JourneyGateway/JourneyGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JourneySystem.iml" filepath="$PROJECT_DIR$/JourneySystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/JourneyTestCourse.iml" filepath="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/JourneyTestCourse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ApplicationSystem/WorkSystem/WorkSystem.iml" filepath="$PROJECT_DIR$/ApplicationSystem/WorkSystem/WorkSystem.iml" />
+    </modules>
+  </component>
+</project>

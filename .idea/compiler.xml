@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CommonSystem" />
+        <module name="JourneyEureka" />
+        <module name="JourneyGateway" />
+        <module name="JourneyTestCourse" />
+        <module name="WorkSystem" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ApplicationSystem" target="1.8" />
+      <module name="CommonSystem" target="1.8" />
+      <module name="JourneyEureka" target="1.8" />
+      <module name="JourneyGateway" target="1.8" />
+      <module name="JourneySystem" target="1.8" />
+      <module name="JourneyTestCourse" target="1.8" />
+      <module name="JourneyZuul" target="1.8" />
+      <module name="WorkSystem" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ApplicationSystem" options="-parameters" />
+      <module name="CommonSystem" options="-parameters" />
+      <module name="JourneyEureka" options="-parameters" />
+      <module name="JourneyGateway" options="-parameters" />
+      <module name="JourneySystem" options="-parameters" />
+      <module name="JourneyTestCourse" options="-parameters" />
+      <module name="JourneyZuul" options="-parameters" />
+      <module name="WorkSystem" options="-parameters" />
+    </option>
+  </component>
+</project>
