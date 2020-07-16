@@ -21,10 +21,8 @@ public class BaseEntity implements BaseID {
 
     @ApiModelProperty(value = "ID", example = "1001")
     @Id
-    @GenericGenerator(name = "myId", strategy = "com.research.org.app.interceptor.AutoIdGenerator")
+    @GenericGenerator(name = "myId", strategy = "com.common.org.interceptor.AutoIdGenerator")
     @GeneratedValue(generator = "myId")
- /*   @GeneratedValue(generator = "uuid2")
-    @GenericGenerator(name = "uuid2", strategy = "org.hibernate.id.UUIDGenerator")*/
     @Column(name = "id", length = 50, nullable = false) // 设置其长度为 50
     private String id;
 

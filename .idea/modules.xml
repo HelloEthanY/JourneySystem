@@ -8,7 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/JourneyGateway/JourneyGateway.iml" filepath="$PROJECT_DIR$/JourneyGateway/JourneyGateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/JourneySystem.iml" filepath="$PROJECT_DIR$/JourneySystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/JourneyTestCourse.iml" filepath="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/JourneyTestCourse.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ApplicationSystem/WorkSystem/WorkSystem.iml" filepath="$PROJECT_DIR$/ApplicationSystem/WorkSystem/WorkSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/MineSystem.iml" filepath="$PROJECT_DIR$/ApplicationSystem/MineSystem/MineSystem.iml" />
     </modules>
   </component>
 </project>

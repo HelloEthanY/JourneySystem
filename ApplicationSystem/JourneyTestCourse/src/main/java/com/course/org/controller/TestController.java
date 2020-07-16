@@ -1,6 +1,5 @@
 package com.course.org.controller;
 
-import com.common.org.utils.ResultData;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiOperationSupport;
@@ -30,6 +29,6 @@ public class TestController {
         map.put("age", "12");
         map.put("school", "花溪二中");
         map.put("address", "贵州省贵阳市花溪区");
-        return ResultData.newSuccess(map);
+        return null;
     }
 }

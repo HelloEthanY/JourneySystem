@@ -11,6 +11,7 @@ public class RouteConfig {
     public RouteLocator appModuleAllocate(RouteLocatorBuilder builder) {
         return builder.routes()
                 .route(r -> r.path("/course/**").uri("lb://JourneyTestCourse"))
+                .route(r -> r.path("/work/**").uri("lb://WorkSystem"))
                 .build();
     }
 

@@ -10,7 +10,7 @@
         <module name="JourneyEureka" />
         <module name="JourneyGateway" />
         <module name="JourneyTestCourse" />
-        <module name="WorkSystem" />
+        <module name="MineSystem" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +21,7 @@
       <module name="JourneySystem" target="1.8" />
       <module name="JourneyTestCourse" target="1.8" />
       <module name="JourneyZuul" target="1.8" />
+      <module name="MineSystem" target="1.8" />
       <module name="WorkSystem" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -33,6 +34,7 @@
       <module name="JourneySystem" options="-parameters" />
       <module name="JourneyTestCourse" options="-parameters" />
       <module name="JourneyZuul" options="-parameters" />
+      <module name="MineSystem" options="-parameters" />
       <module name="WorkSystem" options="-parameters" />
     </option>
   </component>

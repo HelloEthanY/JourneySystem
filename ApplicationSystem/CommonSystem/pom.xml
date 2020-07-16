@@ -8,11 +8,9 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <artifactId>common-system</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <!-- 项目的打包类型, 即项目的发布形式, 默认为 jar. 对于聚合项目的父模块来说, 必须指定为 pom -->
     <packaging>jar</packaging>
+    <artifactId>common-system</artifactId>
+    <!-- 项目的打包类型, 即项目的发布形式, 默认为 jar. 对于聚合项目的父模块来说, 必须指定为 pom -->
     <name>CommonSystem</name>
     <description>Demo project for Spring Boot</description>
     <dependencies>
@@ -33,11 +31,6 @@
             <groupId>com.auth0</groupId>
             <artifactId>java-jwt</artifactId>
             <version>3.4.0</version>
-        </dependency>
-        <!--引入spring-boot-jap-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
     </dependencies>
 </project>

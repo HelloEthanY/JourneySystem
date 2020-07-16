@@ -13,10 +13,16 @@
     <version>0.0.1-SNAPSHOT</version>
     <!-- 项目的打包类型, 即项目的发布形式, 默认为 jar. 对于聚合项目的父模块来说, 必须指定为 pom -->
     <packaging>jar</packaging>
-    <name>journeyTestCourse</name>
+    <name>JourneyTestCourse</name>
     <description>Demo project for Spring Boot</description>
     <dependencies>
-
+        <!--通用模块-->
+        <dependency>
+            <groupId>com.journey.org</groupId>
+            <artifactId>common-system</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
         <!--数据库连接-->
         <!--      <dependency>
                   <groupId>mysql</groupId>
@@ -34,20 +40,5 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
-        <!--通用模块-->
-        <dependency>
-            <groupId>com.journey.org</groupId>
-            <artifactId>common-system</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 </project>

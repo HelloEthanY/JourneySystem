@@ -16,12 +16,25 @@
         <module>CommonSystem</module>
         <!--测试课程模块-->
         <module>JourneyTestCourse</module>
-        <module>WorkSystem</module>
+        <!--个人使用模块-->
+        <module>MineSystem</module>
     </modules>
     <!-- 项目的打包类型, 即项目的发布形式, 默认为 jar. 对于聚合项目的父模块来说, 必须指定为 pom -->
     <packaging>pom</packaging>
     <name>ApplicationSystem</name>
     <description>Demo project for Spring Boot</description>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -78,6 +91,16 @@
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
             <version>5.4.10.Final</version>
+        </dependency>
+        <!--引用AOP注解功能-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        <!--引入spring-boot-jap-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
     </dependencies>
 </project>
