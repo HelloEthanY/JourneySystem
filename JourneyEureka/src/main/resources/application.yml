@@ -2,18 +2,32 @@
 spring:
   application:
     name: JourneyEureka
+  security: # 配置安全认证 (查看服务与注册界面的时候需要登陆)
+    basic:
+      enabled: false
+    user:
+      name: journey
+      password: 123456
 
 server:
   port: 8000
 
 eureka:
+  server:
+    enable-self-preservation: false # 关闭自我保护模式 这个只在开发环境中使用
+    # eviction-interval-timer-in-ms: 5000 # 清理间隔 默认 60000 毫秒 这个只在开发环境中使用
   instance:
     hostname: localhost
+    # instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+    # lease-expiration-duration-in-seconds: 5 # 默认 90 秒 表示 Eureka Server 至上一次收到 client 的心跳之后，等待下一次心跳的超时时间
+    # lease-renewal-interval-in-seconds: 5   # 默认 30 秒 表示 Eureka Client 发送心跳给 server 端的频率
   client:
+    # 这个只在开发环境中使用
     # eureka.client.fetch-registry: 表示是否从 Eureka Server 获取注册信息，默认为true。如果这是一个单点的 Eureka Server，不需要同步其他节点的数据，设为false
     fetch-registry: false
     # eureka.client.register-with-eureka: 表示是否将自己注册到 Eureka Server, 默认为true。由于当前应用就是 Eureka Server, 因此设为 false
     register-with-eureka: false
     # 设置 Eureka Server 所在的地址，查询服务和注册服务都需要依赖这个地址
     service-url:
+      # defaultZone: http://localhost:8000/eureka/
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

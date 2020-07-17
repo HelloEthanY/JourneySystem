@@ -1,5 +1,6 @@
 package com.course.org.controller;
 
+import com.common.org.utils.ResultData;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiOperationSupport;
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.HashMap;
 
-@RestController
+@RestController // http://localhost:8082/gateway/course/test/hello 可以使用这个通过网关访问该接口
 @RequestMapping(value = "/test")
 @Api(value = "测试接口", tags = {"测试接口"})
 /*@ApiResponses({
@@ -29,6 +30,6 @@ public class TestController {
         map.put("age", "12");
         map.put("school", "花溪二中");
         map.put("address", "贵州省贵阳市花溪区");
-        return null;
+        return ResultData.newSuccess(map);
     }
 }

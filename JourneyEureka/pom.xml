@@ -15,15 +15,26 @@
     <!-- 模块名及描述信息 -->
     <name>JourneyEureka</name>
     <description>Spring Cloud Eureka</description>
-    <!-- eureka server: 提供服务发现与服务注册 -->
     <dependencies>
+        <!-- eureka server: 提供服务发现与服务注册 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
+        <!---->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+        <!--安全认证 需要登陆才能查看服务与注册-->
+      <!--  <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>-->
+        <!--健康检查-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
     </dependencies>
     <!--
@@ -48,5 +59,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

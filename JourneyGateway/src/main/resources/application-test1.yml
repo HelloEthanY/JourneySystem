@@ -22,8 +22,7 @@ spring:
       default-filters:
       routes:
         - id: my_course # 测试服务入口
-          # uri: http://localhost:8083/ # http://localhost:8082/course/doc.html
-          uri: lb://load-course-service # http://localhost:8082/course/doc.html
+          uri: http://localhost:8083/ # http://localhost:8082/course/doc.html
           predicates:
             - Path=/course/**
 
@@ -32,17 +31,15 @@ spring:
           predicates:
             - Path=/mine/**
 
-load-course-service: # 负载均衡-测试服务的
+
+load-course-service:
   ribbon:
-    listOfServers: localhost:8083 # 负载地址 - 轮询到多个地址 localhost:8083, localhost:8084
+    listOfServers: localhost:8083  # 负载地址 localhost:8083, localhost:8084
     # 负载轮询策略
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
     # 健康检查
-    # NFLoadBalancerPingClassName: com.modules.scistor.config.HealthExamination
+    NFLoadBalancerPingClassName: com.modules.scistor.config.HealthExamination
 
-ribbon: # 有负载均衡的时候需要将服务与注册关闭
-  eureka:
-    enabled: false # 必须要关闭eureka的服务注册与发现
 
 # 服务注册
 eureka:
@@ -51,11 +48,11 @@ eureka:
       defaultZone: http://localhost:8000/eureka/
   instance:
     prefer-ip-address: true
-
 # 熔断
 feign:
   hystrix:
     enabled: true
+
 
 # 日志
 logging:

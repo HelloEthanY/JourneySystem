@@ -34,6 +34,7 @@ spring:
     store-type: none
 
 # 服务注册
+
 eureka:
   client:
     serviceUrl:

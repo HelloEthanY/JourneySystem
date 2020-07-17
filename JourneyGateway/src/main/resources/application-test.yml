@@ -1,0 +1,66 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: JourneyGateway
+  cloud:
+    gateway: # 网关
+      actuator:
+        verbose:
+          enabled: true
+      globalcors: # 跨域配置
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - OPTIONS
+      # 路由负载配置
+      default-filters:
+      routes:
+        - id: my_route
+          uri: lb://load-balanced-service
+          predicates:
+            - Path=/gateway/**
+          filters:
+            - StripPrefix=1
+
+load-balanced-service:
+  ribbon:
+    listOfServers: localhost:8083, localhost:8084  # 负载地址
+    # 负载轮询策略
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
+    # 健康检查
+    NFLoadBalancerPingClassName: com.modules.scistor.config.HealthExamination
+
+ribbon:
+  eureka:
+    enabled: false # 必须要关闭eureka的服务注册与发现
+
+# 服务注册
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+  instance:
+    prefer-ip-address: true
+# 熔断
+feign:
+  hystrix:
+    enabled: true
+
+
+# 日志
+logging:
+  level:
+    org.springframework.cloud.gateway: trace
+    org.springframework.http.server.reactive: debug
+    org.springframework.web.reactive: debug
+    reactor.ipc.netty: debug
+
+
+
+

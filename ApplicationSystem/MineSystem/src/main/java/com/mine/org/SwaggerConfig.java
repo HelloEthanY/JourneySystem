@@ -35,10 +35,10 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("Journey工作项目 接口文档")
-                .description("更多技术内容分享见博客：http:localhost:8083/mine")
+                .description("更多技术内容分享见博客：http:localhost:8084/mine")
                 .termsOfServiceUrl("https://blog.csdn.net/qq_24871519")
                 .version("1.0")
-                .licenseUrl("http:localhost:8083/mine")
+                .licenseUrl("http:localhost:8084/mine")
                 .build();
     }
 }
