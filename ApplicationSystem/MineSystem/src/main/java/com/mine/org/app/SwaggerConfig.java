@@ -1,4 +1,4 @@
-package com.mine.org;
+package com.mine.org.app;
 
 import com.github.xiaoymin.swaggerbootstrapui.annotations.EnableSwaggerBootstrapUI;
 import org.springframework.context.annotation.Bean;

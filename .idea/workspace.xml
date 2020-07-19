@@ -2,38 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ec7803-8593-4927-ba28-4591a1125a61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JourneyEureka/src/main/java/com/journey/eureka/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JourneyEureka/src/main/java/com/journey/eureka/listener/EurekaStateChangeListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/interrceptor/MyLoadBalancerInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/routes/RibbonBeanConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JourneyGateway/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JourneyGateway/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JourneyGateway/src/main/resources/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JourneyGateway/src/main/resources/application-test1.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/interceptor/GlobalInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/app/CourseInterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/app/MineInterceptorConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/TestCourseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/TestCourseApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/target/classes/com/course/org/TestCourseApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/target/classes/com/course/org/TestCourseApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/target/classes/com/course/org/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/target/classes/com/course/org/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/MineSystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/MineSystemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JourneyEureka/JourneyEureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyEureka/JourneyEureka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JourneyEureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyEureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JourneyEureka/src/main/java/com/journey/eureka/JourneyEurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyEureka/src/main/java/com/journey/eureka/JourneyEurekaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JourneyEureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyEureka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationSystem/CommonSystem/CommonSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/CommonSystem/CommonSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationSystem/CommonSystem/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/CommonSystem/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/JourneyTestCourse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/JourneyTestCourse.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/app/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/target/classes/com/course/org/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationSystem/MineSystem/MineSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/MineSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/app/SwaggerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JourneyEureka/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyEureka/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JourneyEureka/target/classes/com/journey/eureka/JourneyEurekaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyEureka/target/classes/com/journey/eureka/JourneyEurekaApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JourneyGateway/JourneyGateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyGateway/JourneyGateway.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JourneyGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyGateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/GatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/filter/PreRequesterFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/filter/PreRequesterFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/routes/RouteConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/routes/RouteConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JourneyGateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyGateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JourneyGateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyGateway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JourneyGateway/target/classes/com/gateway/GatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyGateway/target/classes/com/gateway/GatewayApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JourneyGateway/target/classes/com/gateway/routes/RouteConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyGateway/target/classes/com/gateway/routes/RouteConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/filter/PreRequesterFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/filter/GatewayRequesterFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JourneyGateway/target/classes/com/gateway/filter/PreRequesterFilter.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,101 +40,83 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="529">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1127">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/filter/PreRequesterFilter.java">
+        <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/filter/GatewayRequesterFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+            <state relative-caret-position="266">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
               <folding>
-                <element signature="e#1180#1181#0" expanded="true" />
-                <element signature="e#1204#1205#0" expanded="true" />
+                <element signature="e#1686#1687#0" expanded="true" />
+                <element signature="e#1710#1711#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/resources/application-dev.yml">
+        <entry file="file://$PROJECT_DIR$/JourneyGateway/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/resources/application-prod.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/resources/application-test.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="411">
+              <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/GatewayApplication.java">
+        <entry file="file://$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/app/CourseInterceptorConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="299">
+              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/app/MineInterceptorConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/interceptor/GlobalInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
               <folding>
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#524#525#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/resources/application-test1.yml">
+        <entry file="file://$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/interceptor/AuthenticationInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            <state relative-caret-position="322">
+              <caret line="72" column="20" selection-start-line="29" selection-start-column="8" selection-end-line="72" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/ApplicationSystem/CommonSystem/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="779">
+              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
             </state>
           </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
     </leaf>
@@ -171,21 +137,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ApplicationSystem/WorkSystem/src/mian/java/com/work/org/entity/enums/TechnologyTypeEnum.java" />
-        <option value="$PROJECT_DIR$/ApplicationSystem/WorkSystem/src/mian/java/com/work/org/entity/enums/WorkStatusEnum.java" />
-        <option value="$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/base/BaseService.java" />
-        <option value="$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/base/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/ApplicationSystem/WorkSystem/src/mian/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ApplicationSystem/WorkSystem/src/mian/java/com/work/org/entity/BlogCollectionEntity.java" />
-        <option value="$PROJECT_DIR$/ApplicationSystem/WorkSystem/src/mian/java/com/work/org/service/WorkAccountService.java" />
-        <option value="$PROJECT_DIR$/ApplicationSystem/WorkSystem/src/mian/java/com/work/org/service/impl/WorkAccountServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ApplicationSystem/WorkSystem/src/mian/java/com/work/org/dto/account/AccountListDto.java" />
         <option value="$PROJECT_DIR$/ApplicationSystem/WorkSystem/src/mian/java/com/work/org/service/account/WorkAccountService.java" />
         <option value="$PROJECT_DIR$/ApplicationSystem/WorkSystem/src/mian/java/com/work/org/service/account/WorkAccountRepository.java" />
         <option value="$PROJECT_DIR$/ApplicationSystem/WorkSystem/src/mian/java/com/work/org/service/account/WorkAccountServiceImpl.java" />
         <option value="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/entity/StudentEntity.java" />
         <option value="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/pom.xml" />
-        <option value="$PROJECT_DIR$/ApplicationSystem/CommonSystem/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ApplicationSystem/WorkSystem/src/mian/java/com/work/org/entity/WorkPlanEntity.java" />
         <option value="$PROJECT_DIR$/ApplicationSystem/WorkSystem/pom.xml" />
@@ -214,14 +170,24 @@
         <option value="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/controller/TestController.java" />
         <option value="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/routes/RibbonBeanConfig.java" />
-        <option value="$PROJECT_DIR$/JourneyGateway/pom.xml" />
         <option value="$PROJECT_DIR$/JourneyGateway/src/main/resources/application-test.yml" />
         <option value="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/routes/RouteConfig.java" />
         <option value="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/GatewayApplication.java" />
         <option value="$PROJECT_DIR$/JourneyGateway/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/JourneyGateway/src/main/resources/application-prod.yml" />
         <option value="$PROJECT_DIR$/JourneyGateway/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/interrceptor/GlobalInterceptor.java" />
+        <option value="$PROJECT_DIR$/JourneyGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/app/GlobalInterceptor.java" />
+        <option value="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/app/FeignConfiguration.java" />
+        <option value="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/app/GlobalInterceptor.java" />
         <option value="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/filter/PreRequesterFilter.java" />
+        <option value="$PROJECT_DIR$/ApplicationSystem/CommonSystem/pom.xml" />
+        <option value="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/app/InterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/app/InterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/app/MineInterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/interceptor/GlobalInterceptor.java" />
+        <option value="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/filter/GatewayRequesterFilter.java" />
       </list>
     </option>
   </component>
@@ -279,7 +245,125 @@
               <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
               <item name="ApplicationSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="CommonSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="CommonSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="CommonSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="CommonSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="CommonSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="CommonSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="CommonSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="CommonSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationSystem" type="462c0819:PsiDirectoryNode" />
               <item name="JourneyTestCourse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="JourneyTestCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="JourneyTestCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="JourneyTestCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="JourneyTestCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="JourneyTestCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
@@ -301,6 +385,36 @@
               <item name="MineSystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="MineSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="MineSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="MineSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
@@ -364,6 +478,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="interrceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="JourneyGateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -388,7 +512,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594976499660" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595126122921" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CompanyCode" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -400,10 +524,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mine.org.app" />
+      <recent name="com.common.org.interceptor" />
+      <recent name="com.course.org.app" />
       <recent name="com.mine.org" />
       <recent name="com.work.org" />
-      <recent name="com.course.org" />
-      <recent name="com.gateway.routes" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\CodeFile\GithubCode\IndellIDEACode\JourneySystem\JourneyGateway\src\main\resources" />
@@ -491,7 +616,8 @@
       <workItem from="1594860964311" duration="10536000" />
       <workItem from="1594885032382" duration="5259000" />
       <workItem from="1594947007857" duration="9708000" />
-      <workItem from="1594966146473" duration="10228000" />
+      <workItem from="1594966146473" duration="10421000" />
+      <workItem from="1595119871159" duration="6228000" />
     </task>
     <task id="LOCAL-00001" summary="1、新增我的模块&#10;2、新增账号数据接口">
       <created>1594890283176</created>
@@ -500,17 +626,24 @@
       <option name="project" value="LOCAL" />
       <updated>1594890283176</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1、完成对网关和负载均衡的配置">
+      <created>1594976556670</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594976556671</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68127000" />
+    <option name="totallyTimeSpent" value="74548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27010724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -519,8 +652,8 @@
       <window_info id="UI Designer" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5222222" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32916668" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5222222" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -553,79 +686,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1、新增我的模块&#10;2、新增账号数据接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、新增我的模块&#10;2、新增账号数据接口" />
+    <MESSAGE value="1、完成对网关和负载均衡的配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、完成对网关和负载均衡的配置" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/WorkSystem/WorkSystem.iml" />
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/WorkSystem/src/mian/java/com/work/org/entity/WorkAccountEntity.java" />
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/base/BaseID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/base/BaseAuditorEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/base/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/target/generated-sources/java/com/course/org/entity/QStudentEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/entity/StudentEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/WorkSystem/src/mian/java/com/work/org/entity/BlogCollectionEntity.java" />
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/WorkSystem/src/mian/java/com/work/org/entity/WorkPlanEntity.java" />
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/CommonSystem/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/WorkSystem/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/entity/enums/TechnologyTypeEnum.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/entity/enums/WorkStatusEnum.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/entity/WorkPlanEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/entity/BlogCollectionEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -752,14 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1769">
-          <caret line="94" column="36" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/JourneyEureka/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -775,23 +831,7 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="37" column="66" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/controller/HouseClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/controller/HouseClientController.java" />
     <entry file="file://$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -802,25 +842,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/routes/RibbonBeanConfig.java">
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-460">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/interrceptor/MyLoadBalancerInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1541">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/resources/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/resources/application-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/GatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/resources/application-test1.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -831,28 +898,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/app/GlobalInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-460">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="219">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/app/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/app/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="391">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/GatewayApplication.java">
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/base/BaseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="230">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/interceptor/AutoIdGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/config/InterceptorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="32" column="44" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="44" />
           <folding>
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1207#1208#0" expanded="true" />
+            <element signature="e#1261#1262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="94" column="36" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/routes/RibbonBeanConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -864,64 +995,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/app/FeignConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JourneyGateway/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        <state relative-caret-position="411">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/app/GlobalInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/CommonSystem/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="529">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/resources/application-test1.yml">
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/interceptor/AuthenticationInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="322">
+          <caret line="72" column="20" selection-start-line="29" selection-start-column="8" selection-end-line="72" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/resources/application-test.yml">
+    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/interrceptor/MyLoadBalancerInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/resources/application-prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/filter/PreRequesterFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        <state relative-caret-position="299">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
-            <element signature="e#1180#1181#0" expanded="true" />
-            <element signature="e#1204#1205#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/app/CourseInterceptorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/app/MineInterceptorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/interceptor/GlobalInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/filter/GatewayRequesterFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="e#1686#1687#0" expanded="true" />
+            <element signature="e#1710#1711#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -32,5 +32,16 @@
             <artifactId>java-jwt</artifactId>
             <version>3.4.0</version>
         </dependency>
+        <!--json-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.15</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.4</version>
+        </dependency>
     </dependencies>
 </project>
