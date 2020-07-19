@@ -8,16 +8,19 @@ spring:
       actuator:
         verbose:
           enabled: true
-        globalcors: # 跨域配置
-          cors-configurations:
-            '[/**]':
-              allowedOrigins: "*"
-              allowedMethods:
-                - GET
-                - POST
-                - PUT
-                - DELETE
-                - OPTIONS
+      globalcors:
+        cors-configurations: # 跨域配置
+          '[/**]':
+            allowedHeaders: "*"
+            allowCredentials: true
+            allowedOrigins: "*"  # http://192.168.16.115:8082,http:localhost:8082
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - OPTIONS
+
       # 路由负载配置
       default-filters:
       routes:

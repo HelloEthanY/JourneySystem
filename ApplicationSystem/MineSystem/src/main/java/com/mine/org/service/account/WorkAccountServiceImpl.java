@@ -47,17 +47,19 @@ public class WorkAccountServiceImpl extends BaseService implements WorkAccountSe
         // 模糊查询
         BooleanBuilder booleanBuilder = new BooleanBuilder();
         if (!"".equals(content)) { // 是否进行条件查询
-            booleanBuilder.and(qWorkAccountEntity.accountName.like("%" + content + "%"));
             booleanBuilder.and(qWorkAccountEntity.accountTitle.like("%" + content + "%"));
-            booleanBuilder.or(qWorkAccountEntity.userName.like("%" + content + "%"));
-            booleanBuilder.or(qWorkAccountEntity.workAccount.like("%" + content + "%"));
+//            booleanBuilder.or(qWorkAccountEntity.accountTitle.like("%" + content + "%"));
+//            booleanBuilder.or(qWorkAccountEntity.userName.like("%" + content + "%"));
+//            booleanBuilder.or(qWorkAccountEntity.workAccount.like("%" + content + "%"));
         }
         JPAQuery<WorkAccountEntity> where = factory.selectFrom(qWorkAccountEntity)
                 .where(booleanBuilder);
         long count = where.fetchCount();
         return ResultListImpl.newResult(count, size, page, where
                 .offset((page - 1) * size)
-                .limit(size).fetchResults()
+                .limit(size)
+                .orderBy(qWorkAccountEntity.createdDate.desc())
+                .fetchResults()
                 .getResults()
                 .stream()
                 .map(tuple -> AccountListDto.builder()

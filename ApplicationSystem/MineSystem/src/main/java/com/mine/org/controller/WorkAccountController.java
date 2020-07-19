@@ -2,6 +2,7 @@ package com.mine.org.controller;
 
 import com.common.org.utils.ResponseCode;
 import com.common.org.utils.ResultData;
+import com.common.org.utils.md.DigestUtil;
 import com.mine.org.entity.WorkAccountEntity;
 import com.mine.org.service.account.WorkAccountService;
 import io.swagger.annotations.Api;
@@ -29,6 +30,7 @@ public class WorkAccountController {
     @PostMapping(value = "/addAccount")
     public Object addEquip(@RequestBody WorkAccountEntity workAccountEntity) {
         try {
+            workAccountEntity.setAccountPassword(DigestUtil.encode(workAccountEntity.getAccountPassword().getBytes()));
             workAccountService.saveWorkAccount(workAccountEntity);
             return ResultData.newSuccess(200, "新增成功！", null);
         } catch (Exception e) {
@@ -70,7 +72,9 @@ public class WorkAccountController {
     @PostMapping(value = "/getAccountInfoDetail")
     public Object getEquipInfoDetail(@RequestParam(value = "id") String id) {
         try {
-            return ResultData.newSuccess(workAccountService.getWorkAccountDetail(id));
+            WorkAccountEntity accountDetail = workAccountService.getWorkAccountDetail(id);
+            accountDetail.setAccountPassword(DigestUtil.decode(accountDetail.getAccountPassword().getBytes()));
+            return ResultData.newSuccess(accountDetail);
         } catch (Exception e) {
             return ResultData.newError(ResponseCode.COMMON_ERROR);
         }

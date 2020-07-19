@@ -1,5 +1,6 @@
 package com.mine.org.entity;
 
+import com.common.org.base.BaseAuditorEntity;
 import com.common.org.base.BaseEntity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -19,7 +20,7 @@ import javax.persistence.Entity;
 @NoArgsConstructor
 @Getter
 @Setter
-public class WorkAccountEntity extends BaseEntity {
+public class WorkAccountEntity extends BaseAuditorEntity {
 
     /* 账号内容 **/
     @Column(name = "work_account")

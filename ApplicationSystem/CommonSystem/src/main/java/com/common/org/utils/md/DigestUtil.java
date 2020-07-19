@@ -1,5 +1,6 @@
 package com.common.org.utils.md;
 
+import org.apache.commons.codec.binary.Base64;
 import org.bouncycastle.util.encoders.Hex;
 
 public class DigestUtil extends BaseMessageDigest {
@@ -174,5 +175,15 @@ public class DigestUtil extends BaseMessageDigest {
 		*/
 
         System.out.println(DigestUtil.md5Hex(DigestUtil.md5Hex("a123456") + ""));
+    }
+
+    //base64 解码
+    public static String decode(byte[] bytes) {
+        return new String(Base64.decodeBase64(bytes));
+    }
+
+    //base64 编码
+    public static String encode(byte[] bytes) {
+        return new String(Base64.encodeBase64(bytes));
     }
 }

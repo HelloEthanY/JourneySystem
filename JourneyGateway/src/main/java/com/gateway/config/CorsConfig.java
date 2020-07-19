@@ -1,7 +1,6 @@
-package com.common.org.config;
+package com.gateway.config;
 
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
@@ -11,12 +10,12 @@ import org.springframework.web.filter.CorsFilter;
  * @Date: 19:26 2019/12/14
  * @Description: 跨域配置
  */
-@Configuration
+//@Configuration
 public class CorsConfig {
 
     // 设置允许跨域的源
     private static String[] originsVal = new String[]{
-            "192.168.16.116:8082",
+            "192.168.16.115:8082",
             "localhost:8082",
     };
 
@@ -29,10 +28,11 @@ public class CorsConfig {
     public CorsFilter corsFilter() {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         CorsConfiguration corsConfiguration = new CorsConfiguration();
-        this.addAllowedOrigins(corsConfiguration);
+        // this.addAllowedOrigins(corsConfiguration);
         corsConfiguration.addAllowedHeader("*"); // 2允许任何头
         corsConfiguration.addAllowedMethod("*"); // 3允许任何方法（post、get等）
         corsConfiguration.addAllowedOrigin("*"); // 1允许任何域名使用
+        corsConfiguration.setAllowCredentials(true);
         source.registerCorsConfiguration("/**", corsConfiguration);
         return new CorsFilter(source);
     }

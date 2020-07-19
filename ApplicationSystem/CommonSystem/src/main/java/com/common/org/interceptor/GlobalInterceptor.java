@@ -38,8 +38,6 @@ public class GlobalInterceptor implements HandlerInterceptor {
             writer.close();
             return false;
         }
-
-
         return true;
     }
 }
