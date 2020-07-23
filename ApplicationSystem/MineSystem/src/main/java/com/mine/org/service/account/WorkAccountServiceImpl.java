@@ -7,10 +7,12 @@ import com.mine.org.entity.QWorkAccountEntity;
 import com.mine.org.entity.WorkAccountEntity;
 import com.querydsl.core.BooleanBuilder;
 import com.querydsl.jpa.impl.JPAQuery;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.util.ArrayList;
 import java.util.Optional;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
@@ -46,21 +48,18 @@ public class WorkAccountServiceImpl extends BaseService implements WorkAccountSe
         QWorkAccountEntity qWorkAccountEntity = QWorkAccountEntity.workAccountEntity;
         // 模糊查询
         BooleanBuilder booleanBuilder = new BooleanBuilder();
-        if (!"".equals(content)) { // 是否进行条件查询
+        if (StringUtils.isEmpty(content)) { // 是否进行条件查询
             booleanBuilder.and(qWorkAccountEntity.accountTitle.like("%" + content + "%"));
 //            booleanBuilder.or(qWorkAccountEntity.accountTitle.like("%" + content + "%"));
-//            booleanBuilder.or(qWorkAccountEntity.userName.like("%" + content + "%"));
-//            booleanBuilder.or(qWorkAccountEntity.workAccount.like("%" + content + "%"));
         }
         JPAQuery<WorkAccountEntity> where = factory.selectFrom(qWorkAccountEntity)
                 .where(booleanBuilder);
         long count = where.fetchCount();
-        return ResultListImpl.newResult(count, size, page, where
+        return ResultListImpl.newResult(count, size, page, Optional.ofNullable(where
                 .offset((page - 1) * size)
                 .limit(size)
                 .orderBy(qWorkAccountEntity.createdDate.desc())
-                .fetchResults()
-                .getResults()
+                .fetch()).orElse(new ArrayList<>())
                 .stream()
                 .map(tuple -> AccountListDto.builder()
                         .id(tuple.getId())

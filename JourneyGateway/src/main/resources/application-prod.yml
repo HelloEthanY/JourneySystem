@@ -9,16 +9,16 @@ spring:
       actuator:
         verbose:
           enabled: true
-        globalcors: # 跨域配置
-          cors-configurations:
-            '[/**]':
-              allowedOrigins: "*"
-              allowedMethods:
-                - GET
-                - POST
-                - PUT
-                - DELETE
-                - OPTIONS
+      globalcors: # 跨域配置
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - OPTIONS
       # 路由负载配置
       default-filters:
       routes:
@@ -29,13 +29,21 @@ spring:
             - Path=/course/**
 
         - id: my_mine # 关于我的服务入口
-          uri: http://localhost:8084/ # http://localhost:8082/mine/doc.html
+          uri: lb://load-mine-service # http://localhost:8082/mine/doc.html
           predicates:
             - Path=/mine/**
 
 load-course-service: # 负载均衡-测试服务的
   ribbon:
     listOfServers: localhost:8083 # 负载地址 - 轮询到多个地址 localhost:8083, localhost:8084
+    # 负载轮询策略
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
+    # 健康检查
+    # NFLoadBalancerPingClassName: com.modules.scistor.config.HealthExamination
+
+load-mine-service: # 负载均衡-mine服务的
+  ribbon:
+    listOfServers: localhost:8084,localhost:8085 # 负载地址 - 轮询到多个地址 localhost:8083, localhost:8084
     # 负载轮询策略
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
     # 健康检查

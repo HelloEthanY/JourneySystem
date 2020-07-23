@@ -1,13 +1,12 @@
 package com.mine.org.controller;
 
+import com.common.org.TechnicalException;
 import com.common.org.utils.ResponseCode;
 import com.common.org.utils.ResultData;
 import com.common.org.utils.md.DigestUtil;
 import com.mine.org.entity.WorkAccountEntity;
 import com.mine.org.service.account.WorkAccountService;
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiOperationSupport;
+import io.swagger.annotations.*;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -34,12 +33,17 @@ public class WorkAccountController {
             workAccountService.saveWorkAccount(workAccountEntity);
             return ResultData.newSuccess(200, "新增成功！", null);
         } catch (Exception e) {
-            return ResultData.newError(ResponseCode.COMMON_ERROR);
+            throw new TechnicalException(ResultData.newError(400, e.getMessage()));
         }
     }
 
     @ApiOperationSupport(order = 2)
     @ApiOperation(value = "账号信息列表", notes = "账号信息列表")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "size", value = "返回数据长度", required = true),
+            @ApiImplicitParam(name = "page", value = "页数", required = true),
+            @ApiImplicitParam(name = "content", value = "模糊查询条件")
+    })
     @GetMapping(value = "/getAccountList") // required 设置参数可为空
     public Object getEquipList(@RequestParam(value = "size") int size,
                                @RequestParam(value = "page") int page,
@@ -51,7 +55,7 @@ public class WorkAccountController {
                 return ResultData.newSuccess(workAccountService.getWorkAccountList(size, page, content));
             }
         } catch (Exception e) {
-            return ResultData.newError(ResponseCode.COMMON_ERROR);
+            throw new TechnicalException(ResultData.newError(400, e.getMessage()));
         }
     }
 
@@ -63,7 +67,7 @@ public class WorkAccountController {
             workAccountService.deleteWorkAccount(id);
             return ResultData.newSuccess(200, "删除成功！", null);
         } catch (Exception e) {
-            return ResultData.newError(ResponseCode.COMMON_ERROR);
+            throw new TechnicalException(ResultData.newError(400, e.getMessage()));
         }
     }
 
@@ -76,7 +80,7 @@ public class WorkAccountController {
             accountDetail.setAccountPassword(DigestUtil.decode(accountDetail.getAccountPassword().getBytes()));
             return ResultData.newSuccess(accountDetail);
         } catch (Exception e) {
-            return ResultData.newError(ResponseCode.COMMON_ERROR);
+            throw new TechnicalException(ResultData.newError(400, e.getMessage()));
         }
     }
 }

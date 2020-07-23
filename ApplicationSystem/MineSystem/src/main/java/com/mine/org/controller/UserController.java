@@ -76,7 +76,7 @@ public class UserController {
             entity.put("phone", userEntity.getPhone());
             return ResultData.newSuccess(ResponseCode.COMMON_SUCCESS, entity);
         } catch (Exception e) {
-            throw new TechnicalException(ResultData.newError(-1, e.getMessage()));
+            throw new TechnicalException(ResultData.newError(400, e.getMessage()));
         }
     }
 
@@ -107,7 +107,7 @@ public class UserController {
             userService.save(user);
             return ResultData.newSuccess("用户创建成功", null);
         } catch (Exception e) {
-            throw new TechnicalException(ResultData.newError(-1, e.getMessage()));
+            throw new TechnicalException(ResultData.newError(400, e.getMessage()));
         }
     }
 
@@ -126,7 +126,7 @@ public class UserController {
                 return ResultData.newSuccess(userService.getUserList(page, size, content));
             }
         } catch (Exception e) {
-            throw new TechnicalException(ResultData.newError(-1, e.getMessage()));
+            throw new TechnicalException(ResultData.newError(400, e.getMessage()));
         }
     }
 
@@ -138,7 +138,7 @@ public class UserController {
             userService.deleteUser(id);
             return ResultData.newSuccess("删除成功！", null);
         } catch (Exception e) {
-            throw new TechnicalException(ResultData.newError(-1, e.getMessage()));
+            throw new TechnicalException(ResultData.newError(400, e.getMessage()));
         }
     }
 }

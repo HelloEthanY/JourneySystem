@@ -1,0 +1,45 @@
+server:
+  port: 8084
+  servlet:
+    context-path: /mine
+  tomcat: # 配置token
+    uri-encoding: UTF-8
+    max-connections: 10000 # 最大链接数
+    threads:
+      max: 300 # 最大线程数
+
+spring:
+  application:
+    name: MineSystem
+  jpa:
+    properties: # 配置使用原生sql语句
+      hibernate:
+        current_session_context_class: org.springframework.orm.hibernate5.SpringSessionContext
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database: mysql
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/journey_system?characterEncoding=utf-8  # 配置链接本地数据库
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  servlet:
+    multipart: # 操作文件
+      enabled: true # 开启multipart 上传功能
+      file-size-threshold: 2KB # 文件写入磁盘的阙值
+      max-file-size: 200MB # 最大文件大小
+      max-request-size: 215MB # 最大请求大小
+  session:
+    store-type: none
+
+# 服务注册
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+  instance:
+    prefer-ip-address: true
+
+file: # 所有通过 REST APIS 上传的文件都将存储在此目录下
+  upload-dir: ./uploads

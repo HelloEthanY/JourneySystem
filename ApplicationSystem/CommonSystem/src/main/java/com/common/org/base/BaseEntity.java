@@ -23,7 +23,7 @@ public class BaseEntity implements BaseID {
     @Id
     @GenericGenerator(name = "myId", strategy = "com.common.org.interceptor.AutoIdGenerator")
     @GeneratedValue(generator = "myId")
-    @Column(name = "id", length = 50, nullable = false) // 设置其长度为 50
+    @Column(name = "id", length = 50, nullable = false, unique = true) // 设置其长度为 50
     private String id;
 
 }
