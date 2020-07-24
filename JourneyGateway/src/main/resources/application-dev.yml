@@ -6,14 +6,13 @@ spring:
     name: JourneyGateway
   cloud:
     gateway: # 网关
-      actuator:
-        verbose:
-          enabled: true
-      globalcors: # 跨域配置
+      globalcors:
         cors-configurations:
           '[/**]':
-            allowedOrigins: "*"
-            allowedMethods:
+            allow-credentials: true
+            allowed-origins: "*"
+            allowed-headers: "*"
+            allowed-methods:
               - GET
               - POST
               - PUT

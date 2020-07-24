@@ -1,6 +1,8 @@
 package com.mine.org.service.word;
 
 import com.mine.org.entity.WordStudyEntity;
+import com.mine.org.entity.enums.WorkStatusEnum;
+
 /**
   *@Author: YU
   *@Date: 16:30 2020/7/20
@@ -12,7 +14,7 @@ public interface WordStudyService {
     int saveWord(WordStudyEntity wordStudyEntity) throws Exception;
 
     /* 单词列表 **/
-    Object getWordList(int page, int size, String content) throws Exception;
+    Object getWordList(int page, int size, String content, WorkStatusEnum state) throws Exception;
 
     /* 删除单词 **/
     void deleteWord(String id) throws Exception;

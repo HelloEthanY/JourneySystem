@@ -12,8 +12,10 @@ spring:
       globalcors: # 跨域配置
         cors-configurations:
           '[/**]':
-            allowedOrigins: "*"
-            allowedMethods:
+            allow-credentials: true
+            allowed-origins: "*"
+            allowed-headers: "*"
+            allowed-methods:
               - GET
               - POST
               - PUT

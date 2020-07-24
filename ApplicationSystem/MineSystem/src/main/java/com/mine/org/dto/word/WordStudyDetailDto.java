@@ -1,10 +1,17 @@
 package com.mine.org.dto.word;
 
-import com.mine.org.entity.enums.WorkStatusEnum;
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.mine.org.entity.WordExampleEntity;
+import com.mine.org.entity.WordPhraseEntity;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Builder;
 import lombok.Data;
+
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToMany;
+import java.util.List;
+import java.util.Set;
 
 /**
  * @Author: YU
@@ -14,7 +21,7 @@ import lombok.Data;
 @ApiModel(description = "单词列表数据")
 @Builder
 @Data
-public class WordStudyListDto {
+public class WordStudyDetailDto {
     /* 英文id**/
     @ApiModelProperty(value = "ID", position = 1, example = "xddswewa25545333322")
     private String id;
@@ -35,4 +42,11 @@ public class WordStudyListDto {
     @ApiModelProperty(value = "学习状态", position = 1, example = "")
     private String studyState;
 
+    /* 例子 **/
+    @ApiModelProperty(value = "例子", position = 1, example = "")
+    private List<WordExampleListDto> wordExampleList;
+
+    /* 短语 **/
+    @ApiModelProperty(value = "短语", position = 1, example = "")
+    private List<WordPhraseListDto> wordPhraseList;
 }

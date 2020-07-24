@@ -2,29 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ec7803-8593-4927-ba28-4591a1125a61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/controller/WordStudyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/dto/word/WordStudyListDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/entity/WordExampleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/entity/WordPhraseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/entity/WordStudyEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordExampleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordPhraseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordStudyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordStudyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordStudyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/dto/word/WordExampleListDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/dto/word/WordPhraseListDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/dto/word/WordStudyDetailDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordExampleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordExampleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordPhraseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordPhraseServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/base/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationSystem/CommonSystem/target/classes/com/common/org/base/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/CommonSystem/target/classes/com/common/org/base/BaseEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/controller/WorkAccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/controller/WorkAccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/account/WorkAccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/account/WorkAccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/controller/WordStudyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/controller/WordStudyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/dto/word/WordStudyListDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/dto/word/WordStudyListDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordStudyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordStudyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordStudyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordStudyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/config/CorsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JourneyGateway/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyGateway/src/main/resources/application-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JourneyGateway/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyGateway/src/main/resources/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JourneyGateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyGateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JourneyGateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyGateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JourneyGateway/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/JourneyGateway/src/main/resources/application-test.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,76 +37,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordStudyService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordStudyServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="68" column="42" lean-forward="true" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+            <state relative-caret-position="344">
+              <caret line="38" column="48" lean-forward="true" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1882#1883#0" expanded="true" />
-                <element signature="e#1932#1933#0" expanded="true" />
+                <element signature="e#3621#3622#0" expanded="true" />
+                <element signature="e#3671#3672#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/dto/word/WordStudyListDto.java">
+        <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/dto/word/WordStudyDetailDto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/account/WorkAccountServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/entity/WordStudyEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="40" column="26" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/base/BaseEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/controller/WorkAccountController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+            <state relative-caret-position="473">
+              <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -121,8 +63,88 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/controller/WordStudyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="52" column="64" selection-start-line="52" selection-start-column="64" selection-end-line="52" selection-end-column="64" />
+            <state relative-caret-position="262">
+              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordStudyService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordPhraseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/entity/WordPhraseEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/dto/word/WordPhraseListDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordPhraseServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordExampleService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordExampleServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="38" selection-start-line="38" selection-end-line="38" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,14 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/routes/RibbonBeanConfig.java" />
-        <option value="$PROJECT_DIR$/JourneyGateway/src/main/resources/application-test.yml" />
-        <option value="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/routes/RouteConfig.java" />
-        <option value="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/interrceptor/GlobalInterceptor.java" />
-        <option value="$PROJECT_DIR$/JourneyGateway/pom.xml" />
-        <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/app/GlobalInterceptor.java" />
-        <option value="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/app/FeignConfiguration.java" />
-        <option value="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/app/GlobalInterceptor.java" />
         <option value="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/filter/PreRequesterFilter.java" />
         <option value="$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/src/main/java/com/course/org/app/InterceptorConfig.java" />
         <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/app/InterceptorConfig.java" />
@@ -170,15 +184,11 @@
         <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/user/UserService.java" />
         <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/user/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/filter/GatewayRequesterFilter.java" />
-        <option value="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/GatewayApplication.java" />
-        <option value="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/config/CorsConfig.java" />
         <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/entity/WorkAccountEntity.java" />
         <option value="$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/utils/md/DigestUtil.java" />
         <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/pom.xml" />
         <option value="$PROJECT_DIR$/ApplicationSystem/pom.xml" />
         <option value="$PROJECT_DIR$/ApplicationSystem/CommonSystem/pom.xml" />
-        <option value="$PROJECT_DIR$/JourneyGateway/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/JourneyGateway/src/main/resources/application-prod.yml" />
         <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/entity/StudyWordEntity.java" />
         <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/entity/WorkPlanEntity.java" />
@@ -191,13 +201,25 @@
         <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/entity/WordPhraseEntity.java" />
         <option value="$PROJECT_DIR$/JourneyGateway/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/base/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordStudyService.java" />
         <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/dto/word.java" />
         <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/account/WorkAccountServiceImpl.java" />
         <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/controller/WorkAccountController.java" />
-        <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/controller/WordStudyController.java" />
         <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/entity/WordStudyEntity.java" />
+        <option value="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/GatewayApplication.java" />
+        <option value="$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/config/CorsConfig.java" />
+        <option value="$PROJECT_DIR$/JourneyGateway/src/main/resources/application-test.yml" />
+        <option value="$PROJECT_DIR$/JourneyGateway/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/JourneyGateway/src/main/resources/application-prod.yml" />
         <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/dto/word/WordStudyListDto.java" />
+        <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordStudyService.java" />
+        <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/controller/WordStudyController.java" />
+        <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/dto/word/WordExampleListDto.java" />
+        <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/dto/word/WordPhraseListDto.java" />
+        <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordPhraseService.java" />
+        <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordExampleService.java" />
+        <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordExampleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordPhraseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/dto/word/WordStudyDetailDto.java" />
         <option value="$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordStudyServiceImpl.java" />
       </list>
     </option>
@@ -239,8 +261,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -302,6 +322,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="MineSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -325,7 +356,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="dto" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="word" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
@@ -348,30 +379,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
-              <item name="ApplicationSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="MineSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
-              <item name="ApplicationSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="MineSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="word" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
@@ -423,12 +430,54 @@
               <item name="JourneyGateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="JourneyGateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="JourneyGateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="interrceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="JourneyGateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JourneySystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JourneySystem" type="462c0819:PsiDirectoryNode" />
+              <item name="JourneyGateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -438,7 +487,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595492894838" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595560665344" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CompanyCode" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -451,11 +500,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mine.org.dto.word" />
       <recent name="com.mine.org.entity.enums" />
       <recent name="com.mine.org.entity" />
       <recent name="com.mine.org.dto.user" />
       <recent name="com.mine.org.app" />
-      <recent name="com.common.org.interceptor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\CodeFile\GithubCode\IndellIDEACode\JourneySystem\ApplicationSystem\MineSystem\src\main\resources" />
@@ -546,7 +595,8 @@
       <workItem from="1594966146473" duration="10421000" />
       <workItem from="1595119871159" duration="24669000" />
       <workItem from="1595206861983" duration="8299000" />
-      <workItem from="1595473402116" duration="7079000" />
+      <workItem from="1595473402116" duration="9432000" />
+      <workItem from="1595552316330" duration="7508000" />
     </task>
     <task id="LOCAL-00001" summary="1、新增我的模块&#10;2、新增账号数据接口">
       <created>1594890283176</created>
@@ -576,17 +626,23 @@
       <option name="project" value="LOCAL" />
       <updated>1595149487159</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1、完成单词新增和查询列表接口">
+      <created>1595492978151</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595492978151</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108367000" />
+    <option name="totallyTimeSpent" value="118228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2774799" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28150135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -596,7 +652,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32916668" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47777778" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5972222" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -632,150 +688,17 @@
     <MESSAGE value="1、完成对网关和负载均衡的配置" />
     <MESSAGE value="1、完成只能通过网关来进行访问&#10;2、完成验证token" />
     <MESSAGE value="1、完成对用户接口的编写&#10;2、修改对账号接口修改&#10;3、解决不能打包问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、完成对用户接口的编写&#10;2、修改对账号接口修改&#10;3、解决不能打包问题" />
+    <MESSAGE value="1、完成单词新增和查询列表接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、完成单词新增和查询列表接口" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/routes/RibbonBeanConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/routes/RouteConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/filter/GatewayRequesterFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#1662#1663#0" expanded="true" />
-            <element signature="e#1686#1687#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/GatewayApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/config/CorsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/app/MineInterceptorConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/utils/md/BaseMessageDigest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/utils/md/DigestUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="187" column="5" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2367#2368#0" expanded="true" />
-            <element signature="e#2415#2416#0" expanded="true" />
-            <element signature="e#4233#4234#0" expanded="true" />
-            <element signature="e#4294#4295#0" expanded="true" />
-            <element signature="e#4359#4360#0" expanded="true" />
-            <element signature="e#4420#4421#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/user/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-851">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/target/classes/com/mine/org/app/MineInterceptorConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#3361#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/JourneyTestCourse/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JourneyGateway/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1403">
-          <caret line="61" column="12" selection-start-line="44" selection-start-column="4" selection-end-line="61" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/CommonSystem/src/main/java/com/common/org/interceptor/GlobalInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2760">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2001">
           <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/JourneyEureka/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -806,12 +729,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ApplicationSystem/CommonSystem/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
           <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/entity/UserEntity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -862,26 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordExampleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordPhraseRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1403">
@@ -892,44 +795,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/entity/WordPhraseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/entity/WordExampleEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/resources/application-prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -947,13 +819,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/dto/word.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/dto/word.java" />
     <entry file="jar://$USER_HOME$/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar!/org/apache/commons/lang3/StringUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -965,51 +831,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/controller/WorkAccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/controller/WordStudyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="52" column="64" selection-start-line="52" selection-start-column="64" selection-end-line="52" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordStudyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/concurrent/WorkerStateEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/entity/WordStudyEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/account/WorkAccountServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1020,16 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/dto/word/WordStudyListDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/target/generated-sources/java/com/mine/org/entity/QWordStudyEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -1037,14 +852,238 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordStudyServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/account/WorkAccountService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="68" column="42" lean-forward="true" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+        <state relative-caret-position="404">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/account/WorkAccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="57" column="29" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/controller/WorkAccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="54" column="73" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/routes/RibbonBeanConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/routes/RouteConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/interrceptor/MyLoadBalancerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/filter/GatewayRequesterFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/GatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/java/com/gateway/config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/resources/application-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/resources/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JourneyGateway/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/dto/word/WordStudyListDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1882#1883#0" expanded="true" />
-            <element signature="e#1932#1933#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/entity/WordStudyEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="42" column="2" lean-forward="true" selection-start-line="42" selection-start-column="2" selection-end-line="52" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordExampleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/entity/WordExampleEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/dto/word/WordExampleListDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordPhraseRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/entity/WordPhraseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/dto/word/WordPhraseListDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordPhraseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordExampleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordExampleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="38" selection-start-line="38" selection-end-line="38" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordPhraseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/controller/WordStudyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordStudyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/dto/word/WordStudyDetailDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationSystem/MineSystem/src/main/java/com/mine/org/service/word/WordStudyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="38" column="48" lean-forward="true" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3621#3622#0" expanded="true" />
+            <element signature="e#3671#3672#0" expanded="true" />
           </folding>
         </state>
       </provider>
