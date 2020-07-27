@@ -3,8 +3,10 @@ package com.mine.org.dto.word;
 import com.mine.org.entity.enums.WorkStatusEnum;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @Author: YU
@@ -14,6 +16,8 @@ import lombok.Data;
 @ApiModel(description = "单词列表数据")
 @Builder
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class WordStudyListDto {
     /* 英文id**/
     @ApiModelProperty(value = "ID", position = 1, example = "xddswewa25545333322")
@@ -33,6 +37,6 @@ public class WordStudyListDto {
 
     /* 学习状态 **/
     @ApiModelProperty(value = "学习状态", position = 1, example = "")
-    private String studyState;
+    private WorkStatusEnum studyState;
 
 }

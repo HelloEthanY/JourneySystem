@@ -43,12 +43,10 @@ public class WordStudyEntity extends BaseAuditorEntity {
     /* 例子 **/
     @OneToMany()
     @JoinColumn
-    @JsonBackReference
     private Set<WordExampleEntity> wordExampleEntityList;
 
     /* 短语 **/
     @OneToMany()
     @JoinColumn
-    @JsonBackReference
     private Set<WordPhraseEntity> wordPhraseEntityList;
 }

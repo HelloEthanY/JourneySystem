@@ -17,6 +17,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import javax.transaction.Transactional;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -42,21 +43,22 @@ public class WordStudyServiceImpl extends BaseService<WordStudyEntity> implement
     @Override
     public int saveWord(WordStudyEntity wordStudyEntity) throws Exception {
         QWordStudyEntity qWordStudyEntity = QWordStudyEntity.wordStudyEntity;
-        long resultCount = factory.selectFrom(qWordStudyEntity).where(qWordStudyEntity.englishName.eq(wordStudyEntity.getEnglishName())).fetchCount();
-        if (resultCount <= 0) {
-            WordStudyEntity save = wordStudyRepository.save(wordStudyEntity);
-            for (WordExampleEntity entity : wordStudyEntity.getWordExampleEntityList()) {
-                entity.setWordStudyEntity(save);
-                wordExampleService.saveWordExample(entity);
+        if (StringUtils.isEmpty(wordStudyEntity.getId())) {
+            long resultCount = factory.selectFrom(qWordStudyEntity).where(qWordStudyEntity.englishName.eq(wordStudyEntity.getEnglishName())).fetchCount();
+            if (resultCount > 0) {
+                return 1;
             }
-            for (WordPhraseEntity entity : wordStudyEntity.getWordPhraseEntityList()) {
-                entity.setWordStudyEntity(save);
-                wordPhraseService.savePhraseEntity(entity);
-            }
-            return 0;
-        } else {
-            return 1;
         }
+        WordStudyEntity save = wordStudyRepository.save(wordStudyEntity);
+        for (WordExampleEntity entity : wordStudyEntity.getWordExampleEntityList()) {
+            entity.setWordStudyEntity(save);
+            wordExampleService.saveWordExample(entity);
+        }
+        for (WordPhraseEntity entity : wordStudyEntity.getWordPhraseEntityList()) {
+            entity.setWordStudyEntity(save);
+            wordPhraseService.savePhraseEntity(entity);
+        }
+        return 0;
     }
 
     @Override
@@ -67,16 +69,16 @@ public class WordStudyServiceImpl extends BaseService<WordStudyEntity> implement
             condition.and(qWordStudyEntity.chinaName.like("%" + content + "%"));
             condition.or(qWordStudyEntity.englishName.like("%" + content + "%"));
         }
-        if (!Objects.isNull(state)) {
+        // System.out.println("state::" + state);
+       /* if (!Objects.isNull(state)) {
             condition.and(qWordStudyEntity.workState.eq(state));
-        }
+        }*/
         JPAQuery<WordStudyEntity> where = factory.selectFrom(qWordStudyEntity).where(condition);
         return ResultListImpl.newResult(where.fetchCount(), size, page,
                 Optional.ofNullable(where
-                        .orderBy(qWordStudyEntity.workState.desc())
-                        .orderBy(qWordStudyEntity.createdDate.desc())
                         .offset((page - 1) * size)
                         .limit(size)
+                        .orderBy(qWordStudyEntity.createdDate.desc())
                         .fetch()).orElse(new ArrayList<>())
                         .stream()
                         .map(wordStudyEntity -> WordStudyListDto.builder()
@@ -84,7 +86,8 @@ public class WordStudyServiceImpl extends BaseService<WordStudyEntity> implement
                                 .chinaName(wordStudyEntity.getChinaName())
                                 .englishName(wordStudyEntity.getEnglishName())
                                 .wordPronunciation(wordStudyEntity.getWordPronunciation())
-                                .studyState(wordStudyEntity.getWorkState().getDes()).build())
+                                .studyState(wordStudyEntity.getWorkState())
+                                .build())
                         .collect(Collectors.toList()));
     }
 
@@ -107,8 +110,8 @@ public class WordStudyServiceImpl extends BaseService<WordStudyEntity> implement
                 .englishName(wordStudyEntity.getEnglishName())
                 .studyState(wordStudyEntity.getWorkState().getDes())
                 .wordPronunciation(wordStudyEntity.getWordPronunciation())
-                .wordExampleList(wordExampleService.getWordExampleList(id))
-                .wordPhraseList(wordPhraseService.getWordPhraseList(id))
+                .wordExampleEntityList(wordExampleService.getWordExampleList(id))
+                .wordPhraseEntityList(wordPhraseService.getWordPhraseList(id))
                 .build();
     }
 }

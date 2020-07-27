@@ -44,9 +44,9 @@ public class WordStudyDetailDto {
 
     /* 例子 **/
     @ApiModelProperty(value = "例子", position = 1, example = "")
-    private List<WordExampleListDto> wordExampleList;
+    private List<WordExampleListDto> wordExampleEntityList;
 
     /* 短语 **/
     @ApiModelProperty(value = "短语", position = 1, example = "")
-    private List<WordPhraseListDto> wordPhraseList;
+    private List<WordPhraseListDto> wordPhraseEntityList;
 }

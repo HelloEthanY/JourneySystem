@@ -50,7 +50,6 @@ public class WorkAccountServiceImpl extends BaseService implements WorkAccountSe
         BooleanBuilder booleanBuilder = new BooleanBuilder();
         if (StringUtils.isEmpty(content)) { // 是否进行条件查询
             booleanBuilder.and(qWorkAccountEntity.accountTitle.like("%" + content + "%"));
-//            booleanBuilder.or(qWorkAccountEntity.accountTitle.like("%" + content + "%"));
         }
         JPAQuery<WorkAccountEntity> where = factory.selectFrom(qWorkAccountEntity)
                 .where(booleanBuilder);

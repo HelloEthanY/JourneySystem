@@ -6,9 +6,11 @@ import com.mine.org.entity.WordStudyEntity;
 import com.mine.org.entity.enums.WorkStatusEnum;
 import com.mine.org.service.word.WordStudyService;
 import io.swagger.annotations.*;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.awt.*;
 
 /**
  * @Author: YU
@@ -25,7 +27,7 @@ public class WordStudyController {
 
     @ApiOperationSupport(order = 1)
     @ApiOperation(value = "新增单词信息接口", notes = "新增单词信息接口")
-    @PostMapping(path = "/saveWord")
+    @PostMapping(path = "/saveWord", produces = MediaType.APPLICATION_JSON_VALUE)
     public Object saveWord(@RequestBody WordStudyEntity wordStudyEntity) {
         try {
             int saveState = wordStudyService.saveWord(wordStudyEntity);
