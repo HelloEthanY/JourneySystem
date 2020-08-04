@@ -6,31 +6,33 @@ spring:
     name: JourneyGateway
   cloud:
     gateway: # 网关
-      globalcors:
-        cors-configurations:
-          '[/**]':
-            allow-credentials: true
-            allowed-origins: "*"
-            allowed-headers: "*"
-            allowed-methods:
-              - GET
-              - POST
-              - PUT
-              - DELETE
-              - OPTIONS
+      discovery: # 发现
+        locator: # 定位器
+          lower-case-service-id: true
+          enabled: true
       # 路由负载配置
       default-filters:
-      routes:
-        - id: my_course # 测试服务入口
-          # uri: http://localhost:8083/ # http://localhost:8082/course/doc.html
-          uri: lb://load-course-service # http://localhost:8082/course/doc.html
-          predicates:
-            - Path=/course/**
 
+      routes:
         - id: my_mine # 关于我的服务入口
           uri: lb://load-mine-service # http://localhost:8082/mine/doc.html
           predicates:
             - Path=/mine/**
+
+        - id: my_course # 测试服务入口 限流熔断
+          uri: lb://load-course-service
+          predicates:
+            - Path=/course/**
+          filters:
+            - name: RequestRateLimiter
+              args:
+                key-resolver: '#{@ipAddressKeyResolver}'
+                redis-rate-limiter.replenishRate: 1000
+                redis-rate-limiter.burstCapacity: 1000
+            #- name: Hystrix
+              #ages:
+                #name: default
+                #fallbackUri: 'forward:/defaultfallback'
 
 load-course-service: # 负载均衡-测试服务的
   ribbon:
@@ -49,6 +51,10 @@ load-mine-service: # 负载均衡-mine服务的
 ribbon: # 有负载均衡的时候需要将服务与注册关闭
   eureka:
     enabled: false # 必须要关闭eureka的服务注册与发现
+  read-timeout: 60000
+
+
+
 
 # 服务注册
 eureka:
@@ -57,20 +63,25 @@ eureka:
       defaultZone: http://localhost:8000/eureka/
   instance:
     prefer-ip-address: true
+#设置最大容错超时时间
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 90000
+
 
 # 熔断
 feign:
   hystrix:
     enabled: true
 
+
+
 # 日志
 logging:
   level:
-    org.springframework.cloud.gateway: trace
-    org.springframework.http.server.reactive: debug
-    org.springframework.web.reactive: debug
-    reactor.ipc.netty: debug
-
-
+    root: INFO
+    com.open.capacity: INFO
+    org.springframework.web: INFO
+    org.hibernate: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
 
 

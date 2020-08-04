@@ -4,10 +4,10 @@ spring:
     name: JourneyEureka
   security: # 配置安全认证 (查看服务与注册界面的时候需要登陆)
     basic:
-      enabled: false
+      enabled: true
     user:
-      name: journey
       password: 123456
+      name: journey
 
 server:
   port: 8000
@@ -31,3 +31,16 @@ eureka:
     service-url:
       # defaultZone: http://localhost:8000/eureka/
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+management:
+  security:
+    enabled: false
+
+logging:
+  level:
+    root: INFO
+    com.open.capacity: INFO
+    org.springframework.web: INFO
+    org.hibernate: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE

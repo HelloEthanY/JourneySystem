@@ -4,10 +4,10 @@ spring:
     name: JourneyEureka
   security: # 配置安全认证 (查看服务与注册界面的时候需要登陆)
     basic:
-      enabled: false
+      enabled: true
     user:
-      name: journey
       password: 123456
+      name: journey
 
 server:
   port: 8000
